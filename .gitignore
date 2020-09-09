@@ -1,0 +1,50 @@
+HELP.md
+out/
+target/
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Batch ###
+# BatchFiles
+*.bat
+*.cmd
+*.btm
+
+### PowerShell ###
+# Exclude packaged modules
+*.zip
+mvnw
+mvnw.cmd
+# Exclude .NET assemblies from source
+*.dll
+.idea/.gitignore
